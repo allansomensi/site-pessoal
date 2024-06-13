@@ -1,4 +1,4 @@
-import SocialIcon from "./SocialIcon";
+import SocialIcon from "../SocialIcon";
 
 interface AboutMeProps {
   className: string;
@@ -28,7 +28,7 @@ export default function AboutMe(props: AboutMeProps) {
         <h2 className="text-xl md:text-2xl text-slate-200 mt-6 ml-4 font-semibold">
           Bio
         </h2>
-        <p className="text-sm md:text-md text-slate-400 ml-5 mt-2">
+        <p className="text-sm sm:text-base md:text-md text-slate-400 ml-5 mt-2">
           Desenvolvedor Web em formação, apaixonado por tecnologia e buscando se
           atualizar com as últimas tendências da área. Atualmente focado em
           desenvolvimento de APIs back-end com Python e Django, explorando
@@ -37,27 +37,27 @@ export default function AboutMe(props: AboutMeProps) {
         <div className="flex ml-5 mt-5 gap-4 self-center md:self-end">
           <SocialIcon
             name="Github"
-            path="icons/github.svg"
+            path="icons/social/github.svg"
             redirect="https://github.com/allansomensi"
           />
           <SocialIcon
             name="LinkedIn"
-            path="icons/linkedin.svg"
+            path="icons/social/linkedin.svg"
             redirect="https://linkedin.com/in/allansomensi"
           />
           <SocialIcon
             name="Instagram"
-            path="icons/instagram.svg"
+            path="icons/social/instagram.svg"
             redirect="https://instagram.com/allanrsomensi"
           />
           <SocialIcon
             name="Facebook"
-            path="icons/facebook.svg"
+            path="icons/social/facebook.svg"
             redirect="https://facebook.com/allanrsomensi"
           />
           <SocialIcon
             name="X"
-            path="icons/x.svg"
+            path="icons/social/x.svg"
             redirect="https://x.com/allanrsomensi"
             className="p-1"
           />

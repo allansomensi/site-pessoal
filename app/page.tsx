@@ -1,7 +1,7 @@
-import TheHeader from "../components/TheHeader";
-import Hero from "../components/Hero";
-import Card from "../components/Card";
-import AboutMe from "../components/AboutMe";
+import TheHeader from "../components/layout/TheHeader";
+import Hero from "../components/sections/Hero";
+import Card from "../components/common/Card";
+import AboutMe from "../components/sections/AboutMe";
 
 export default function Home() {
   return (
