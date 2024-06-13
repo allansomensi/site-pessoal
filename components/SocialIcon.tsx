@@ -1,3 +1,5 @@
+import React from "react";
+
 interface SocialIconProps {
   name: string;
   path: string;
@@ -11,7 +13,7 @@ export default function SocialIcon(props: SocialIconProps) {
       <img
         src={`${props.path}`}
         alt={`${props.name} icon`}
-        className={`w-12 h-12 border rounded-full text-center text-sm text-gray-300 dark:bg-gray-900 bg-white ${props.className}`}
+        className={`w-12 h-12 sm:w-14 sm:h-14 rounded-full text-center text-sm text-gray-300 ${props.className}`}
       />
     </a>
   );

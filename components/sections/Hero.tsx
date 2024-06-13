@@ -1,4 +1,35 @@
-import Button from "./Button";
+import Button from "../common/Button";
+
+export default function Hero() {
+  return (
+    <div>
+      {background}
+      <div className="flex flex-col flex-grow cursor-default items-center justify-center text-center mt-10 sm:mt-20 md:mt-30">
+        <div className="flex -rotate-3 flex-col items-center">
+          <h2 className="w-fit select-none text-9xl font-semibold duration-300 active:translate-x-1 sm:text-7xl md:hover:translate-x-1">
+            Ei!
+          </h2>
+          <h2 className="w-fit select-none text-4xl font-normal duration-300 active:translate-x-1 sm:text-5xl md:hover:translate-x-1">
+            Precisando de um
+          </h2>
+          <h2 className="w-fit select-none rounded bg-orange-600 px-2 pb-2 text-4xl font-medium underline duration-300 active:translate-x-1 active:duration-150 sm:text-6xl md:hover:translate-x-1">
+            Desenvolvedor Web?
+          </h2>
+          <h1 className="-ml-10 mt-10 w-fit select-none border-2 px-2 text-7xl duration-300 active:translate-x-1 active:border-current active:text-amber-300 active:backdrop-brightness-75 active:duration-100 sm:ml-10 sm:mt-9 sm:text-7xl md:-ml-3.5 md:text-8xl md:hover:translate-x-1 md:hover:border-current md:hover:text-amber-300 md:hover:backdrop-brightness-75">
+            Allan Somensi
+          </h1>
+        </div>
+        <div className="flex justify-center p-4">
+          <Button
+            text="Ver mais"
+            className="z-10 mb-28 mt-12 sm:mt-12 md:mt-20 lg:mt-24"
+            primary
+          />
+        </div>
+      </div>
+    </div>
+  );
+}
 
 const background = (
   <div>
@@ -182,33 +213,3 @@ const background = (
     </svg>
   </div>
 );
-
-export default function Hero() {
-  return (
-    <div>
-      {background}
-      <div className="flex flex-col flex-grow cursor-default items-center justify-center text-center mt-10 sm:mt-20 md:mt-30">
-        <div className="flex -rotate-3 flex-col items-center">
-          <h2 className="w-fit select-none text-9xl font-semibold duration-300 active:translate-x-1 sm:text-7xl md:hover:translate-x-1">
-            Ei!
-          </h2>
-          <h2 className="w-fit select-none text-4xl font-normal duration-300 active:translate-x-1 sm:text-5xl md:hover:translate-x-1">
-            Precisando de um
-          </h2>
-          <h2 className="w-fit select-none rounded bg-orange-600 px-2 pb-2 text-4xl font-medium underline duration-300 active:translate-x-1 active:duration-150 sm:text-6xl md:hover:translate-x-1">
-            Desenvolvedor Web?
-          </h2>
-          <h1 className="-ml-10 mt-10 w-fit select-none border-2 px-2 text-7xl duration-300 active:translate-x-1 active:border-current active:text-amber-300 active:backdrop-brightness-75 active:duration-100 sm:ml-10 sm:mt-9 sm:text-7xl md:-ml-3.5 md:text-8xl md:hover:translate-x-1 md:hover:border-current md:hover:text-amber-300 md:hover:backdrop-brightness-75">
-            Allan Somensi
-          </h1>
-        </div>
-        <div className="flex justify-center p-4">
-          <Button
-            text="Ver mais"
-            className="z-10 mb-28 mt-4 sm:mt-12 md:mt-20"
-          />
-        </div>
-      </div>
-    </div>
-  );
-}
