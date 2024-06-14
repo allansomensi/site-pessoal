@@ -11,13 +11,13 @@ export default function Home() {
           <TheHeader />
           <Hero />
         </div>
-        <div className="bg-white p-10">
+        <div
+          id="projects"
+          className="dark:bg-gray-800 bg-white p-10 dark:text-white"
+        >
           <h1 className="text-3xl">Projetos</h1>
           <p className="text-lg">Veja todos os principais projetos:</p>
-          <div
-            id="projects"
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center mt-6"
-          >
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center mt-6">
             <Card
               title="site-pessoal"
               description="O site que você está acessando! :) Feito com NextJS e TailwindCSS."
