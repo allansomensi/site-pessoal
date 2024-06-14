@@ -8,34 +8,34 @@ export default function AboutMe(props: AboutMeProps) {
   return (
     <div
       id="about"
-      className={`flex flex-col md:flex-row min-w-screen bg-neutral-100 border-2 dark:border-0 dark:bg-slate-700 rounded-3xl p-4 sm:p-10 ${props.className}`}
+      className={`min-w-screen flex flex-col rounded-3xl border-2 p-4 sm:p-10 md:flex-row dark:border-0 dark:bg-slate-700 ${props.className}`}
     >
       <img
         src="perfil-img.jpg"
         alt="Perfil"
-        className="bg-gray-900 rounded-full shadow-lg w-32 h-32 md:w-52 md:h-52 object-cover mx-auto md:mx-0"
+        className="mx-auto h-32 w-32 rounded-full bg-gray-900 object-cover shadow-lg md:mx-0 md:h-52 md:w-52"
       />
 
-      <div className="flex flex-col h-full w-full px-2 sm:px-10 mt-5 md:mt-0">
-        <h1 className="text-3xl md:text-4xl text-slate-900 dark:text-white font-semibold self-center md:self-end hidden md:block">
+      <div className="mt-5 flex h-full w-full flex-col px-2 sm:px-10 md:mt-0">
+        <h1 className="hidden self-center text-3xl font-semibold text-slate-900 md:block md:self-end md:text-4xl dark:text-white">
           About me
         </h1>
-        <h2 className="text-2xl md:text-3xl text-slate-900 dark:text-white font-medium self-center md:self-start">
+        <h2 className="self-center text-2xl font-medium text-slate-900 md:self-start md:text-3xl dark:text-white">
           Allan Somensi
         </h2>
-        <h3 className="text-md md:text-lg text-slate-900 dark:text-slate-300 self-center md:self-start">
+        <h3 className="text-md self-center text-slate-900 md:self-start md:text-lg dark:text-slate-300">
           Desenvolvedor Web
         </h3>
-        <h2 className="text-xl md:text-2xl text-slate-900 dark:text-slate-200 mt-6 ml-4 font-semibold">
+        <h2 className="ml-4 mt-6 text-xl font-semibold text-slate-900 md:text-2xl dark:text-slate-200">
           Bio
         </h2>
-        <p className="text-sm sm:text-base md:text-md text-slate-900 dark:text-slate-400 ml-5 mt-2">
+        <p className="md:text-md ml-5 mt-2 text-sm text-slate-900 sm:text-base dark:text-slate-400">
           Desenvolvedor Web em formação, apaixonado por tecnologia e buscando se
           atualizar com as últimas tendências da área. Atualmente focado em
           desenvolvimento de APIs back-end com Python e Django, explorando
           integrações front-end com React e TailwindCSS.
         </p>
-        <div className="flex sm:ml-5 mt-5 gap-4 sm:gap-6 flex-wrap sm:flex-nowrap items-center self-center justify-center md:self-end">
+        <div className="mt-5 flex flex-wrap items-center justify-center gap-4 self-center sm:ml-5 sm:flex-nowrap sm:gap-6 md:self-end">
           <a href="https://github.com/allansomensi" target="_blank">
             <SocialIcon name="github" />
           </a>
@@ -49,7 +49,7 @@ export default function AboutMe(props: AboutMeProps) {
             <SocialIcon name="facebook" />
           </a>
           <a href="https://x.com/allanrsomensi" target="_blank">
-            <SocialIcon name="x" className="scale-95 -ml-1" />
+            <SocialIcon name="x" className="-ml-1 scale-95" />
           </a>
         </div>
       </div>

@@ -7,17 +7,17 @@ export default function Home() {
   return (
     <div>
       <div className="overflow-hidden">
-        <div className="relative flex flex-grow flex-col bg-gradient-to-b from-cyan-950 to-cyan-600 text-white min-h-screen">
+        <div className="relative flex min-h-screen flex-grow flex-col bg-gradient-to-b from-cyan-950 to-cyan-600 text-white">
           <TheHeader />
           <Hero />
         </div>
         <div
           id="projects"
-          className="dark:bg-gray-800 bg-white p-10 dark:text-white"
+          className="bg-white p-10 dark:bg-gray-800 dark:text-white"
         >
           <h1 className="text-3xl">Projetos</h1>
           <p className="text-lg">Veja todos os principais projetos:</p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center mt-6">
+          <div className="mt-6 grid grid-cols-1 place-items-center gap-10 sm:grid-cols-2 lg:grid-cols-3">
             <Card
               title="site-pessoal"
               description="O site que você está acessando! :) Feito com NextJS e TailwindCSS."
