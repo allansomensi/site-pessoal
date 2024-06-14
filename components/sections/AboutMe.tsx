@@ -11,10 +11,11 @@ export default function AboutMe(props: AboutMeProps) {
       className={`flex flex-col md:flex-row min-w-screen bg-slate-600 rounded-3xl p-4 sm:p-10 ${props.className}`}
     >
       <img
-        src="#"
+        src="perfil-img.jpg"
         alt="Perfil"
-        className="bg-gray-900 rounded-full text-white border min-h-32 min-w-32 md:min-w-52 md:min-h-52 mx-auto md:mx-0"
+        className="bg-gray-900 rounded-full text-white border w-32 h-32 md:w-52 md:h-52 object-cover mx-auto md:mx-0"
       />
+
       <div className="flex flex-col h-full w-full px-2 sm:px-10 mt-5 md:mt-0">
         <h1 className="text-3xl md:text-4xl text-white font-semibold self-center md:self-end hidden md:block">
           About me
@@ -34,7 +35,7 @@ export default function AboutMe(props: AboutMeProps) {
           desenvolvimento de APIs back-end com Python e Django, explorando
           integrações front-end com React e TailwindCSS.
         </p>
-        <div className="flex ml-5 mt-5 gap-4 self-center md:self-end">
+        <div className="flex ml-5 mt-5 gap-4 self-center justify-center md:self-end">
           <SocialIcon
             name="Github"
             path="icons/social/github.svg"

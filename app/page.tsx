@@ -17,7 +17,7 @@ export default function Home() {
           <p className="text-lg">Veja todos os principais projetos:</p>
           <div
             id="projects"
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 place-items-center mt-6"
+            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center mt-6"
           >
             <Card
               title="site-pessoal"
