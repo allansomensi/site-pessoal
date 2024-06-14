@@ -7,7 +7,7 @@ export default function SocialIcon(props: SocialIconProps) {
   return (
     <svg
       viewBox={getIcon(props.name)?.viewBox}
-      className={`h-9 w-9 select-none rounded-full fill-black text-center text-gray-300 sm:h-11 sm:w-11 dark:fill-white ${props.className}`}
+      className={`h-9 w-9 select-none rounded-lg fill-black text-center text-gray-300 sm:h-11 sm:w-11 dark:fill-white ${props.className}`}
     >
       <path d={getIcon(props.name)?.d} fillRule="evenodd"></path>
     </svg>
