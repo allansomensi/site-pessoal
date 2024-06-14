@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <div>
       {background}
-      <div className="flex flex-col flex-grow cursor-default items-center justify-center text-center mt-10 sm:mt-20 md:mt-30">
+      <div className="md:mt-30 mt-10 flex flex-grow cursor-default flex-col items-center justify-center text-center sm:mt-20">
         <div className="flex -rotate-3 flex-col items-center">
           <h2 className="w-fit select-none text-9xl font-semibold duration-300 active:translate-x-1 sm:text-7xl md:hover:translate-x-1">
             Ei!
