@@ -2,6 +2,7 @@ import TheHeader from "../components/layout/TheHeader";
 import Hero from "../components/sections/Hero";
 import Card from "../components/common/Card";
 import AboutMe from "../components/sections/AboutMe";
+import TheFooter from "@/components/layout/TheFooter";
 
 export default function Home() {
   return (
@@ -13,7 +14,7 @@ export default function Home() {
         </div>
         <div
           id="projects"
-          className="bg-white p-10 dark:bg-gray-800 dark:text-white"
+          className="bg-white px-6 py-10 dark:bg-gray-800 dark:text-white"
         >
           <h1 className="text-3xl">Projetos</h1>
           <p className="text-lg">Veja todos os principais projetos:</p>
@@ -41,6 +42,7 @@ export default function Home() {
           </div>
           <AboutMe className="mt-10" />
         </div>
+        <TheFooter />
       </div>
     </div>
   );
