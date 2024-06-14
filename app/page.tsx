@@ -6,7 +6,6 @@ import AboutMe from "../components/sections/AboutMe";
 export default function Home() {
   return (
     <div>
-      <title>Allan Somensi</title>
       <div className="overflow-hidden">
         <div className="relative flex flex-grow flex-col bg-gradient-to-b from-cyan-950 to-cyan-600 text-white min-h-screen">
           <TheHeader />
