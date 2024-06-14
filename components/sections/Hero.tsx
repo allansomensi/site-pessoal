@@ -1,4 +1,4 @@
-import Button from "../common/Button";
+import Button from "../common/TheButton";
 
 export default function Hero() {
   return (
@@ -23,6 +23,7 @@ export default function Hero() {
           <Button
             text="Ver mais"
             className="z-10 mb-28 mt-12 sm:mt-12 md:mt-20 lg:mt-24"
+            redirect="#projects"
             primary
           />
         </div>

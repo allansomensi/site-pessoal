@@ -13,7 +13,7 @@ export default function TheHeader() {
             <a href="#about">Sobre</a>
           </li>
           <li className="md:hover:scale-105 duration-200 active:scale-105">
-            <a href="#contact">Contato</a>
+            <a href="#about">Contato</a>
           </li>
         </ul>
       </div>
