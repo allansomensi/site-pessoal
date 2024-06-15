@@ -3,6 +3,7 @@ import Hero from "../components/sections/Hero";
 import Card from "../components/common/Card";
 import AboutMe from "../components/sections/AboutMe";
 import TheFooter from "@/components/layout/TheFooter";
+import MySkills from "@/components/sections/MySkills";
 
 export default function Home() {
   return (
@@ -41,6 +42,7 @@ export default function Home() {
             />
           </div>
           <AboutMe className="mt-10" />
+          <MySkills className="mt-10" />
         </div>
         <TheFooter />
       </div>
