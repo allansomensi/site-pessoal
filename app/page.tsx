@@ -27,7 +27,7 @@ export default function Home() {
             <Card
               title="easy-ticket"
               description="Projeto API de tickets de suporte utilizando Django, autenticação JWT, grupos e permissões de usuários personalizadas."
-              image="projects/easy-ticket.png"
+              image="/projects/easy-ticket.png"
             />
             <Card
               title="brother-snmp"
