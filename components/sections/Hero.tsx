@@ -1,4 +1,4 @@
-import Button from "../common/TheButton";
+import TheButton from "../common/TheButton";
 
 export default function Hero() {
   return (
@@ -20,7 +20,7 @@ export default function Hero() {
           </h1>
         </div>
         <div className="flex justify-center p-4">
-          <Button
+          <TheButton
             text="Ver mais"
             className="z-10 mb-28 mt-12 sm:mt-12 md:mt-20 lg:mt-24"
             redirect="#projects"

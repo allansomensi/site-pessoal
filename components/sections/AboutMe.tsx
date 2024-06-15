@@ -1,3 +1,4 @@
+import Link from "next/link";
 import SocialIcon from "../SocialIcon";
 
 interface AboutMeProps {
@@ -11,8 +12,8 @@ export default function AboutMe(props: AboutMeProps) {
       className={`min-w-screen flex flex-col rounded-3xl border-2 p-4 sm:p-10 md:flex-row dark:border-0 dark:bg-slate-700 ${props.className}`}
     >
       <img
-        src="perfil-img.jpg"
-        alt="Perfil"
+        src="profile.jpg"
+        alt="profile image"
         className="mx-auto h-32 w-32 rounded-full bg-gray-900 object-cover shadow-lg md:mx-0 md:h-52 md:w-52"
       />
 
@@ -36,21 +37,21 @@ export default function AboutMe(props: AboutMeProps) {
           integrações front-end com React e TailwindCSS.
         </p>
         <div className="mt-5 flex flex-wrap items-center justify-center gap-4 self-center sm:ml-5 sm:flex-nowrap sm:gap-6 md:self-end">
-          <a href="https://github.com/allansomensi" target="_blank">
+          <Link href="https://github.com/allansomensi" target="_blank">
             <SocialIcon name="github" />
-          </a>
-          <a href="https://linkedin.com/in/allansomensi" target="_blank">
+          </Link>
+          <Link href="https://linkedin.com/in/allansomensi" target="_blank">
             <SocialIcon name="linkedin" />
-          </a>
-          <a href="https://instagram.com/allanrsomensi" target="_blank">
+          </Link>
+          <Link href="https://instagram.com/allanrsomensi" target="_blank">
             <SocialIcon name="instagram" />
-          </a>
-          <a href="https://facebook.com/allanrsomensi" target="_blank">
+          </Link>
+          <Link href="https://facebook.com/allanrsomensi" target="_blank">
             <SocialIcon name="facebook" />
-          </a>
-          <a href="https://x.com/allanrsomensi" target="_blank">
+          </Link>
+          <Link href="https://x.com/allanrsomensi" target="_blank">
             <SocialIcon name="x" className="-ml-1 scale-95" />
-          </a>
+          </Link>
         </div>
       </div>
     </div>

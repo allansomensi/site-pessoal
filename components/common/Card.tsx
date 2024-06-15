@@ -1,3 +1,4 @@
+import Link from "next/link";
 import SocialIcon from "../SocialIcon";
 
 interface CardProps {
@@ -13,6 +14,8 @@ export default function Card(props: CardProps) {
         <img
           src={props.image}
           alt=""
+          width={32}
+          height={32}
           className="h-full max-h-32 min-h-32 w-full rounded-xl border-2 border-slate-400 bg-white object-cover"
         />
         <h1 className="my-2 text-xl font-medium text-black dark:text-white">
@@ -22,7 +25,7 @@ export default function Card(props: CardProps) {
           {props.description}
         </p>
       </div>
-      <a
+      <Link
         className="mx-3.5 mt-2 flex justify-center self-center rounded border border-black px-4 duration-100 active:bg-gray-900 md:hover:bg-gray-900 dark:border-0 dark:bg-gray-800"
         href={`https://github.com/allansomensi/${props.title}`}
         target="_blank"
@@ -31,7 +34,7 @@ export default function Card(props: CardProps) {
         <p className="ml-2 justify-center self-center text-lg dark:text-white">
           Ver no Github
         </p>
-      </a>
+      </Link>
     </div>
   );
 }
