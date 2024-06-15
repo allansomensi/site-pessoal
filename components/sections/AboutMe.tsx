@@ -50,7 +50,7 @@ export default function AboutMe(props: AboutMeProps) {
             <SocialIcon name="facebook" />
           </Link>
           <Link href="https://x.com/allanrsomensi" target="_blank">
-            <SocialIcon name="x" className="-ml-1 scale-95" />
+            <SocialIcon name="x" />
           </Link>
         </div>
       </div>
