@@ -197,7 +197,7 @@ export default function MySkills(props: MySkillProps) {
           </li>
         </ul>
         <h2 className="mb-4 mt-4 self-center text-4xl font-medium md:self-start">
-          Tools
+          Ferramentas
         </h2>
         <ul className="mb-4 ml-4 flex flex-wrap justify-center gap-4 md:justify-start">
           <li>
@@ -354,7 +354,7 @@ export default function MySkills(props: MySkillProps) {
           </li>
         </ul>
         <h2 className="mb-4 mt-4 self-center text-4xl font-medium md:self-start">
-          Others
+          Outros
         </h2>
         <ul className="mb-4 ml-4 flex flex-wrap justify-center gap-4 md:justify-start">
           <li>
