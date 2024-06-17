@@ -5,6 +5,7 @@ interface MySkillProps {
 export default function MySkills(props: MySkillProps) {
   return (
     <div
+      id="myskills"
       className={`min-w-screen flex flex-col rounded-3xl border-2 p-4 sm:p-10 md:flex-row dark:border-0 dark:bg-slate-700 ${props.className}`}
     >
       <div className="mt-5 flex h-full w-full flex-col px-2 sm:px-10 md:mt-0">
