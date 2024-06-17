@@ -12,7 +12,7 @@ export default function TheHeader() {
             <Link href="#about">Sobre</Link>
           </li>
           <li className="duration-200 active:scale-105 md:hover:scale-105">
-            <Link href="#contact">Contato</Link>
+            <Link href="#myskills">My Skills</Link>
           </li>
         </ul>
       </div>
