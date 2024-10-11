@@ -32,9 +32,10 @@ export default function AboutMe(props: AboutMeProps) {
         </h2>
         <p className="md:text-md ml-5 mt-2 text-sm text-slate-900 sm:text-base dark:text-slate-400">
           Desenvolvedor Web em formação, apaixonado por tecnologia e buscando se
-          atualizar com as últimas tendências da área. Atualmente focado em
-          desenvolvimento de APIs back-end com Python e Django, explorando
-          integrações front-end com React e TailwindCSS.
+          atualizar com as últimas tendências da área. Atualmente estudando
+          desenvolvimento back-end de APIs com Rust e Axum, também explorando
+          outras áreas como aplicações desktop multiplataforma, embarcados e
+          WASM.
         </p>
         <div className="mt-5 flex flex-wrap items-center justify-center gap-4 self-center sm:ml-5 sm:flex-nowrap sm:gap-6 md:self-end">
           <Link href="https://github.com/allansomensi" target="_blank">
