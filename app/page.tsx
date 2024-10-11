@@ -26,6 +26,11 @@ export default function Home() {
               image="projects/site-pessoal.png"
             />
             <Card
+              title="printer-supplies-api"
+              description="Projeto API para gerenciamento de suprimentos de impressoras utilizando Rust e Axum, com banco de dados Postgres em Docker."
+              image="projects/printer-supplies-api.png"
+            />
+            <Card
               title="easy-ticket"
               description="Projeto API de tickets de suporte utilizando Django, autenticação JWT, grupos e permissões de usuários personalizadas."
               image="/projects/easy-ticket.png"
