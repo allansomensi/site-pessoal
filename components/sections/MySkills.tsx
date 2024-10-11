@@ -16,14 +16,20 @@ export default function MySkills(props: MySkillProps) {
           Linguagens:
         </h2>
         <ul className="mb-4 ml-4 flex flex-wrap items-center justify-center gap-8 text-center md:justify-start">
-          <li title="Rust">
+          <li
+            title="Rust"
+            className="duration-200 hover:translate-y-1 md:hover:scale-105"
+          >
             {/* Rust */}
             <svg width={64} height={64} viewBox="0 0 32 32" fill="#ef4900">
               <path d="M15 3.77a.951.951 0 1 1 1.902 0 .951.951 0 0 1-1.902 0m-11.346 8.61a.951.951 0 1 1 1.902 0 .951.951 0 0 1-1.902 0m22.692.044a.951.951 0 0 1 1.902 0 .951.951 0 0 1-1.902 0M6.406 13.73a.87.87 0 0 0 .441-1.146l-.422-.954h1.66v7.48H4.736a11.71 11.71 0 0 1-.379-4.47zm6.942.184v-2.205H17.3c.204 0 1.44.236 1.44 1.16 0 .768-.95 1.044-1.73 1.044zM7.952 25.785a.951.951 0 1 1 1.902 0 .951.951 0 0 1-1.902 0m14.093.044a.951.951 0 0 1 1.902 0 .951.951 0 0 1-1.902 0m.294-2.157c-.47-.1-.93.198-1.03.667l-.477 2.228a11.71 11.71 0 0 1-9.765-.047l-.477-2.228c-.1-.47-.56-.768-1.03-.667l-1.967.422a11.71 11.71 0 0 1-1.017-1.199h9.57c.108 0 .18-.02.18-.118v-3.385c0-.1-.072-.118-.18-.118h-2.8v-2.146h3.027c.276 0 1.477.08 1.862 1.614l.565 2.5c.18.55.913 1.653 1.693 1.653h4.94a11.71 11.71 0 0 1-1.085 1.255zm5.314-8.938a11.71 11.71 0 0 1 .025 2.033h-1.2c-.12 0-.17.08-.17.197v.552c0 1.3-.732 1.58-1.374 1.653-.61.07-1.29-.256-1.372-.63-.36-2.028-.96-2.46-1.9-3.21 1.177-.748 2.402-1.85 2.402-3.327 0-1.594-1.093-2.598-1.838-3.09-1.045-.69-2.202-.827-2.514-.827H7.277a11.71 11.71 0 0 1 6.551-3.697l1.465 1.537c.33.347.88.36 1.226.028l1.64-1.567a11.71 11.71 0 0 1 8.017 5.709l-1.122 2.534a.87.87 0 0 0 .441 1.146zm2.798.04l-.038-.392 1.156-1.078c.235-.22.147-.66-.153-.772l-1.477-.552-.116-.38.92-1.28c.188-.26.015-.675-.3-.727l-1.558-.253-.187-.35.655-1.437c.134-.293-.115-.667-.437-.655l-1.58.055-.25-.303.363-1.54c.073-.313-.244-.63-.557-.557l-1.54.363-.304-.25.055-1.58c.012-.32-.362-.57-.654-.437l-1.436.655-.35-.188-.254-1.558c-.05-.316-.467-.488-.727-.3l-1.28.92-.38-.115-.552-1.477c-.112-.3-.553-.388-.772-.154l-1.078 1.156-.392-.038-.832-1.345c-.168-.272-.62-.272-.787 0l-.832 1.345-.392.038L13.305.43c-.22-.234-.66-.147-.772.154l-.552 1.477-.38.115-1.28-.92c-.26-.188-.676-.015-.727.3l-.254 1.558-.35.188-1.436-.655c-.292-.133-.667.117-.654.437l.055 1.58-.304.25-1.54-.363c-.313-.073-.63.244-.557.557l.363 1.54-.25.303-1.58-.055c-.32-.01-.57.362-.437.655l.655 1.437-.188.35-1.558.253c-.316.05-.488.467-.3.727l.92 1.28-.116.38-1.477.552c-.3.112-.388.553-.153.772l1.156 1.078-.038.392-1.345.832c-.272.168-.272.62 0 .787l1.345.832.038.392L.43 18.697c-.234.22-.147.66.153.772l1.477.552.116.38-.92 1.28c-.187.26-.015.676.3.727l1.557.253.188.35-.655 1.436c-.133.292.118.667.437.655l1.58-.055.25.304-.363 1.54c-.073.312.244.63.557.556l1.54-.363.304.25-.055 1.58c-.012.32.362.57.654.437l1.436-.655.35.188.254 1.557c.05.317.467.488.727.302l1.28-.922.38.116.552 1.477c.112.3.553.388.772.153l1.078-1.156.392.04.832 1.345c.168.27.618.272.787 0l.832-1.345.392-.04 1.078 1.156c.22.235.66.147.772-.153l.552-1.477.38-.116 1.28.922c.26.187.676.015.727-.302l.254-1.557.35-.188 1.436.655c.292.133.666-.116.654-.437l-.055-1.58.303-.25 1.54.363c.313.073.63-.244.557-.556l-.363-1.54.25-.304 1.58.055c.32.013.57-.363.437-.655l-.655-1.436.187-.35 1.558-.253c.317-.05.49-.466.3-.727l-.92-1.28.116-.38 1.477-.552c.3-.113.388-.553.153-.772l-1.156-1.078.038-.392 1.345-.832c.272-.168.273-.618 0-.787z" />
             </svg>
           </li>
 
-          <li title="NodeJs">
+          <li
+            title="NodeJs"
+            className="duration-200 hover:translate-y-1 md:hover:scale-105"
+          >
             {/* NodeJs */}
             <svg
               width={64}
@@ -35,7 +41,10 @@ export default function MySkills(props: MySkillProps) {
               <path d="M14.656.427c.8-.453 1.82-.455 2.6 0L29.2 7.16c.747.42 1.247 1.253 1.24 2.114v13.5c.005.897-.544 1.748-1.332 2.16l-11.88 6.702a2.6 2.6 0 0 1-2.639-.073l-3.565-2.06c-.243-.145-.516-.26-.688-.495.152-.204.422-.23.642-.32.496-.158.95-.4 1.406-.656.115-.08.256-.05.366.022l3.04 1.758c.217.125.437-.04.623-.145l11.665-6.583c.144-.07.224-.222.212-.38V9.334c.016-.18-.087-.344-.25-.417L16.19 2.244a.41.41 0 0 0-.465-.001L3.892 8.93c-.16.073-.27.235-.25.415v13.37c-.014.158.07.307.215.375l3.162 1.785c.594.32 1.323.5 1.977.265a1.5 1.5 0 0 0 .971-1.409l.003-13.29c-.014-.197.172-.36.363-.34h1.52c.2-.005.357.207.33.405L12.18 23.88c.001 1.188-.487 2.48-1.586 3.063-1.354.7-3.028.553-4.366-.12l-3.4-1.88c-.8-.4-1.337-1.264-1.332-2.16v-13.5a2.46 2.46 0 0 1 1.282-2.141L14.656.427zM18.1 9.785c1.727-.1 3.576-.066 5.13.785 1.203.652 1.87 2.02 1.892 3.358-.034.18-.222.28-.394.267-.5-.001-1.002.007-1.504-.003-.213.008-.336-.188-.363-.376-.144-.64-.493-1.273-1.095-1.582-.924-.463-1.996-.44-3.004-.43-.736.04-1.527.103-2.15.535-.48.328-.624 1-.453 1.522.16.383.603.506.964.62 2.082.544 4.287.5 6.33 1.207.845.292 1.672.86 1.962 1.745.378 1.186.213 2.604-.63 3.556-.684.784-1.68 1.2-2.675 1.442-1.323.295-2.695.302-4.038.17-1.263-.144-2.577-.476-3.552-1.336-.834-.724-1.24-1.852-1.2-2.94.01-.184.193-.312.37-.297h1.5c.202-.014.35.16.36.35.093.6.322 1.25.854 1.6 1.026.662 2.313.616 3.487.635.973-.043 2.065-.056 2.86-.7.42-.367.543-.98.43-1.508-.123-.446-.6-.653-1-.8-2.055-.65-4.285-.414-6.32-1.15-.826-.292-1.625-.844-1.942-1.693-.443-1.2-.24-2.687.693-3.607.9-.915 2.22-1.268 3.47-1.394z" />
             </svg>
           </li>
-          <li title="Typescript">
+          <li
+            title="Typescript"
+            className="duration-200 hover:translate-y-1 md:hover:scale-105"
+          >
             {/* Typescript */}
             <svg height={64} width={64} viewBox="0 0 512 512">
               <rect fill="#3178c6" height="512" rx="50" width="512" />
@@ -48,7 +57,10 @@ export default function MySkills(props: MySkillProps) {
               />
             </svg>
           </li>
-          <li title="Python">
+          <li
+            title="Python"
+            className="duration-200 hover:translate-y-1 md:hover:scale-105"
+          >
             {/* Python */}
             <svg viewBox="0 0 256 255" height={64} width={64}>
               <linearGradient
@@ -86,7 +98,10 @@ export default function MySkills(props: MySkillProps) {
           Frameworks / Libs
         </h2>
         <ul className="mb-4 ml-4 flex flex-wrap justify-center gap-4 md:justify-start">
-          <li title="Tauri">
+          <li
+            title="Tauri"
+            className="duration-200 hover:translate-y-1 md:hover:scale-105"
+          >
             {/* Tauri */}
             <svg height={64} width={64} viewBox="0 0 128 128">
               <path
@@ -107,7 +122,10 @@ export default function MySkills(props: MySkillProps) {
               />
             </svg>
           </li>
-          <li title="NextJS">
+          <li
+            title="NextJS"
+            className="duration-200 hover:translate-y-1 md:hover:scale-105"
+          >
             {/* NextJS */}
             <svg height={64} width={64} viewBox="0 0 16 16">
               <g clipPath="url(#clip0_53_108)">
@@ -169,7 +187,10 @@ export default function MySkills(props: MySkillProps) {
               </defs>
             </svg>
           </li>
-          <li title="React">
+          <li
+            title="React"
+            className="duration-200 hover:translate-y-1 md:hover:scale-105"
+          >
             {/* React */}
             <svg height={64} width={64} viewBox="-11.5 -10.23174 23 20.46348">
               <circle cx="0" cy="0" r="2.05" fill="#61dafb" />
@@ -180,7 +201,10 @@ export default function MySkills(props: MySkillProps) {
               </g>
             </svg>
           </li>
-          <li title="Django">
+          <li
+            title="Django"
+            className="duration-200 hover:translate-y-1 md:hover:scale-105"
+          >
             {/* Django */}
             <svg width={64} height={64} viewBox="0 0 256 256">
               <g>
@@ -204,7 +228,10 @@ export default function MySkills(props: MySkillProps) {
           Ferramentas
         </h2>
         <ul className="mb-4 ml-4 flex flex-wrap justify-center gap-4 md:justify-start">
-          <li title="VSCode">
+          <li
+            title="VSCode"
+            className="duration-200 hover:translate-y-1 md:hover:scale-105"
+          >
             {/* VSCode */}
             <svg height={64} width={64} viewBox="0 0 100 100">
               <mask
@@ -329,7 +356,10 @@ export default function MySkills(props: MySkillProps) {
               </defs>
             </svg>
           </li>
-          <li title="Postman">
+          <li
+            title="Postman"
+            className="duration-200 hover:translate-y-1 md:hover:scale-105"
+          >
             {/* Postman */}
             <svg height={64} width={64} viewBox="0 0 2491 2491">
               <path
@@ -356,7 +386,10 @@ export default function MySkills(props: MySkillProps) {
               </g>
             </svg>
           </li>
-          <li title="Docker">
+          <li
+            title="Docker"
+            className="duration-200 hover:translate-y-1 md:hover:scale-105"
+          >
             {/* Docker */}
             <svg
               height={64}
@@ -372,7 +405,10 @@ export default function MySkills(props: MySkillProps) {
               />
             </svg>
           </li>
-          <li title="Git">
+          <li
+            title="Git"
+            className="duration-200 hover:translate-y-1 md:hover:scale-105"
+          >
             {/* Git */}
             <svg width={64} height={64} viewBox="0 0 92 92">
               <defs>
@@ -393,7 +429,10 @@ export default function MySkills(props: MySkillProps) {
           Outros
         </h2>
         <ul className="mb-4 ml-4 flex flex-wrap justify-center gap-4 md:justify-start">
-          <li title="Pop!_OS">
+          <li
+            title="Pop!_OS"
+            className="duration-200 hover:translate-y-1 md:hover:scale-105"
+          >
             {/* Pop!_OS */}
             <svg height={64} width={64} viewBox="0 0 210 210">
               <g transform="matrix(0.21141649,0,0,0.21141649,5,4.7885835)">
@@ -426,7 +465,10 @@ export default function MySkills(props: MySkillProps) {
               </g>
             </svg>
           </li>
-          <li title="Windows">
+          <li
+            title="Windows"
+            className="duration-200 hover:translate-y-1 md:hover:scale-105"
+          >
             {/* Windows */}
             <svg width={64} height={64} viewBox="-0.5 0 280 257">
               <path
