@@ -57,7 +57,7 @@ const background = (
         viewBox="0 0 152 179"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="absolute left-2/3 top-1/4 size-1/3"
+        className="absolute left-2/3 top-1/4 size-1/3 mix-blend-multiply"
       >
         <g style={{ mixBlendMode: "multiply" }}>
           <path
@@ -73,7 +73,7 @@ const background = (
         viewBox="0 0 104 116"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="absolute left-3.5 top-1/2 size-2/12"
+        className="absolute left-3.5 top-1/2 size-2/12 mix-blend-multiply"
       >
         <g style={{ mixBlendMode: "multiply" }}>
           <path
@@ -89,7 +89,7 @@ const background = (
         viewBox="0 0 104 139"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="absolute left-1/4 top-1/2 size-1/6"
+        className="absolute left-1/4 top-1/2 size-1/6 mix-blend-multiply"
       >
         <g style={{ mixBlendMode: "multiply" }}>
           <path
@@ -105,7 +105,7 @@ const background = (
         viewBox="0 0 264 173"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="absolute right-20 top-3.5 size-3/12"
+        className="absolute right-20 top-3.5 size-3/12 mix-blend-multiply"
       >
         <g style={{ mixBlendMode: "multiply" }}>
           <path
@@ -121,7 +121,7 @@ const background = (
         viewBox="0 0 104 139"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="absolute bottom-1/4 right-1.5 size-1/5"
+        className="absolute bottom-1/4 right-1.5 size-1/5 mix-blend-multiply"
       >
         <g style={{ mixBlendMode: "multiply" }}>
           <path
@@ -137,7 +137,7 @@ const background = (
         viewBox="0 0 110 87"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="absolute right-1/4 top-1/2 size-3/12"
+        className="absolute right-1/4 top-1/2 size-3/12 mix-blend-multiply"
       >
         <g style={{ mixBlendMode: "multiply" }}>
           <path
@@ -153,7 +153,7 @@ const background = (
         viewBox="0 0 152 179"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="absolute left-2/3 top-3/4"
+        className="absolute left-2/3 top-3/4 mix-blend-multiply"
       >
         <g style={{ mixBlendMode: "multiply" }}>
           <path
@@ -169,7 +169,7 @@ const background = (
         viewBox="0 0 155 358"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="absolute right-2/3 top-1/4 size-3/12"
+        className="absolute right-2/3 top-1/4 size-3/12 mix-blend-multiply"
       >
         <g style={{ mixBlendMode: "multiply" }}>
           <path
@@ -186,7 +186,7 @@ const background = (
       viewBox="0 0 104 116"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className="absolute right-3/4 top-3.5 size-3/12"
+      className="absolute right-3/4 top-3.5 size-3/12 mix-blend-multiply"
     >
       <g style={{ mixBlendMode: "multiply" }}>
         <path
@@ -202,7 +202,7 @@ const background = (
       viewBox="0 0 173 125"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className="absolute right-2/3 top-2/3 size-3/12"
+      className="absolute right-2/3 top-2/3 size-3/12 mix-blend-multiply"
     >
       <g style={{ mixBlendMode: "multiply" }}>
         <path
