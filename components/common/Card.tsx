@@ -16,7 +16,7 @@ export default function Card(props: CardProps) {
           alt="Project Image"
           width={32}
           height={32}
-          className="h-full max-h-32 min-h-40 w-full rounded-xl border-2 border-slate-400 bg-white object-cover"
+          className="h-full max-h-40 min-h-32 w-full rounded-xl border-2 border-slate-400 bg-white object-cover"
         />
         <h1 className="my-2 text-xl font-medium text-black dark:text-white">
           {props.title}
