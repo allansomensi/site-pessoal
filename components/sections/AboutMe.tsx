@@ -47,9 +47,6 @@ export default function AboutMe(props: AboutMeProps) {
           <Link href="https://instagram.com/allanrsomensi" target="_blank">
             <SocialIcon name="instagram" />
           </Link>
-          <Link href="https://facebook.com/allanrsomensi" target="_blank">
-            <SocialIcon name="facebook" />
-          </Link>
           <Link href="https://x.com/allanrsomensi" target="_blank">
             <SocialIcon name="x" />
           </Link>
