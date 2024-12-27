@@ -26,7 +26,7 @@ export default function Card(props: CardProps) {
         </p>
       </div>
       <Link
-        className="mx-3.5 mt-2 flex justify-center self-center rounded border border-black px-4 duration-100 hover:bg-neutral-200 active:bg-neutral-200 dark:border-0 dark:bg-gray-800 active:dark:bg-gray-900 md:dark:hover:bg-gray-900"
+        className="mx-3.5 mt-2 flex justify-center self-center rounded border border-black px-4 duration-100 hover:bg-neutral-200 hover:dark:bg-gray-900 active:bg-neutral-200 dark:border-0 dark:bg-gray-800 active:dark:bg-gray-900 md:dark:hover:bg-gray-900"
         href={`https://github.com/allansomensi/${props.title}`}
         target="_blank"
       >
