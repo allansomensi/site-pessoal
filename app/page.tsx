@@ -26,6 +26,11 @@ export default function Home() {
               image="projects/site-pessoal.png"
             />
             <Card
+              title="tickify-api"
+              description="Uma API simples para gerenciar tickets de suporte, com autenticação JWT. Feito em Rust com Axum."
+              image="projects/tickify-api.png"
+            />
+            <Card
               title="printer-supplies-api"
               description="Projeto API para gerenciamento de suprimentos de impressoras utilizando Rust e Axum, com banco de dados Postgres em Docker."
               image="projects/printer-supplies-api.png"
