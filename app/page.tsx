@@ -36,6 +36,11 @@ export default function Home() {
               image="projects/printer-supplies-api.png"
             />
             <Card
+              title="inkcheck"
+              description="Uma ferramenta CLI para verificar o status dos suprimentos de impressoras por protocolo SNMP por meio de linha de comando. Feito em Rust."
+              image="projects/inkcheck.png"
+            />
+            <Card
               title="easy-ticket"
               description="Projeto API de tickets de suporte utilizando Django, autenticação JWT, grupos e permissões de usuários personalizadas."
               image="/projects/easy-ticket.png"
