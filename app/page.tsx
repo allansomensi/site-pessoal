@@ -26,6 +26,11 @@ export default function Home() {
               image="projects/site-pessoal.png"
             />
             <Card
+              title="inkcheck"
+              description="Uma ferramenta CLI para verificar o status dos suprimentos de impressoras por protocolo SNMP por meio de linha de comando. Feito em Rust."
+              image="projects/inkcheck.png"
+            />
+            <Card
               title="tickify-api"
               description="Uma API simples para gerenciar tickets de suporte, com autenticação JWT. Feito em Rust com Axum."
               image="projects/tickify-api.png"
@@ -36,11 +41,6 @@ export default function Home() {
               image="projects/printer-supplies-api.png"
             />
             <Card
-              title="inkcheck"
-              description="Uma ferramenta CLI para verificar o status dos suprimentos de impressoras por protocolo SNMP por meio de linha de comando. Feito em Rust."
-              image="projects/inkcheck.png"
-            />
-            <Card
               title="easy-ticket"
               description="Projeto API de tickets de suporte utilizando Django, autenticação JWT, grupos e permissões de usuários personalizadas."
               image="/projects/easy-ticket.png"
@@ -49,11 +49,6 @@ export default function Home() {
               title="brother-snmp"
               description="Projeto para consulta de recursos em impressoras Brother utilizando o protocolo SNMP."
               image="projects/brother-snmp.png"
-            />
-            <Card
-              title="rust-menu"
-              description="Menu de console simples em Rust para treino e estudo da linguagem e lógica de programação."
-              image="projects/rust-menu.png"
             />
           </div>
           <AboutMe className="mt-10" />
