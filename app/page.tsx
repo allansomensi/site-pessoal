@@ -36,9 +36,19 @@ export default function Home() {
               image="projects/tickify-api.png"
             />
             <Card
+              title="tickify-web"
+              description="Front-end em Next.js e Typescript que consome o back-end tickify-api."
+              image="projects/tickify-web.png"
+            />
+            <Card
               title="printer-supplies-api"
               description="Projeto API para gerenciamento de suprimentos de impressoras utilizando Rust e Axum, com banco de dados Postgres em Docker."
               image="projects/printer-supplies-api.png"
+            />
+            <Card
+              title="zugzwang"
+              description="Jogo de Xadrez 2D multiplataforma minimalista feito em Rust com Macroquad."
+              image="projects/zugzwang.png"
             />
             <Card
               title="easy-ticket"
